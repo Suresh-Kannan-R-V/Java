@@ -1,4 +1,4 @@
-package com;
+package com.Maths;
 
 public class OddOrEven {
 public static void main(String[] args) {
