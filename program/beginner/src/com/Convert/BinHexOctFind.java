@@ -1,5 +1,4 @@
 package com.Convert;
-
 import java.util.Scanner;
 
 public class BinHexOctFind {
