@@ -1,0 +1,23 @@
+package com.Array;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.Scanner;
+
+public class FrequencyArray {
+public static void main(String[] args) {
+	Scanner in = new Scanner(System.in);
+	int size = in.nextInt();
+	int[] arr = new int[size];
+	for (int i = 0; i < size; i++) {
+		arr[i] = in.nextInt();
+	}
+	List<Integer> frequency = new ArrayList<>(Collections.nCopies(arr.length, 0));
+	for (int i : arr) {
+		int value = frequency.get(i - 1) + 1;
+		frequency.set(i - 1, value);
+	}
+	System.out.println(frequency.toString());
+}
+}

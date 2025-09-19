@@ -28,6 +28,7 @@ static Pair<Integer, Integer> MinMax(int[] arr) {
 }
 }
 
+
 class Pair<U, V> {
 public final U first;
 public final V second;

@@ -1,0 +1,14 @@
+package com.CLIS.BankingSystem.Calculator;
+
+interface CalculatorFunction {
+    int add(int a, int b);
+
+    int sub(int a, int b);
+
+    int multi(int a, int b);
+
+    double div(int a, int b);
+
+    double pow(int a, int b);
+
+}
